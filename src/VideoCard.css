@@ -1,0 +1,55 @@
+.videoCard {
+  color: white;
+  padding: 15px;
+  transition: transform 100ms;
+  width: 400px;
+  height: 400px;
+}
+
+.videoCard:hover {
+  transform: scale(1.09);
+}
+
+.videoCard_stats {
+  display: none;
+}
+
+.videoCard:hover > .videoCard_stats {
+  display: inline;
+}
+
+.videoCard > img {
+  height: 300px;
+  object-fit: contain;
+  width: 400px;
+}
+
+/* .videoCard {
+  color: white;
+  padding: 10px;
+  transition: transform 100ms;
+  width: 500px;
+  height: 400px;
+}
+
+.videoCard:hover {
+  transform: scale(1.09);
+}
+
+.videoCard_stats {
+  display: none;
+}
+
+.videoCard:hover > .videoCard_stats {
+  display: inline;
+}
+
+.videoCard > img {
+  height: 300px;
+  object-fit: contain;
+  width: 500px;
+}
+
+.videoCard > p {
+  padding-bottom: 10px;
+} */

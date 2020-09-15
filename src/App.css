@@ -1,0 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  /* width: 100vw; */
+  background-image: linear-gradient(to right, #051421, #042727);
+}

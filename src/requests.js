@@ -1,4 +1,4 @@
-const API_KEY = "7ed120188583cb5fda5d32eef0fe6ad2";
+const API_KEY = "TMDB_API_KEY";
 
 export default {
   fetchtrending: `trending/all/week?api_key=${API_KEY}&languages=en-US`,
